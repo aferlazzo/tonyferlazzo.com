@@ -3,7 +3,7 @@
     padding: 0;
 }
 .fixed-header {
-    position: fixed;
+    //position: fixed;
     z-index: 5;
 }
 header {
@@ -28,10 +28,12 @@ header div img {
     padding-left: 2rem; 
 }
 .no-margin{
-    margin: 2rem 0 0 0;
+    margin: 0;
 }
 .font-size-2point7rem {
     font-size: 2.7rem;
+    height: 10rem;
+    line-height: 10rem;
 }
 #nav {
     display: flex;
@@ -63,4 +65,16 @@ header div img {
 .scrolling-body {
     position: relative;
     margin-top: 12rem;
+}
+.scrolling-body fieldset {
+    background-color: #F6F2FB; 
+}
+.scrolling-body .flexbox {
+    display: flex;
+}
+.scrolling-body fieldset .label-wrapper {
+    flex: none;
+}
+.scrolling-body fieldset .field-wrapper {
+    flex: auto;
 }
